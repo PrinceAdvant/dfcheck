@@ -1,0 +1,14 @@
+[package]
+name = "dfcheck"
+version = "0.1.0"
+edition = "2021"
+description = "A small, dependency free Dockerfile checker for production habits: pinned base images, non-root USER, lean apt and apk installs, exec form CMD and no secrets in ENV."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PrinceAdvant/dfcheck"
+homepage = "https://peon.sh/blogs/docker-security-best-practices-production"
+documentation = "https://docs.rs/dfcheck"
+keywords = ["dockerfile", "docker", "lint", "security", "container"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
